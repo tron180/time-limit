@@ -2,8 +2,8 @@
     color: orange;
 }
 
-.font-12{
-    font-size: 12px;
+.font-10{
+    font-size: 10px;
 }
 
 .font-weight-lightest{
@@ -12,4 +12,12 @@
 
 .font-30{
     font-size: 30px;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.icons{
+    height: 55px;
 }
