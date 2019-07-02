@@ -63,3 +63,24 @@
     color: orange;
     transform: translateX(20px);
 }
+
+/* Button Group Effects */
+
+.btn-group button:hover{
+    background-color: orange;
+    color: white !important;
+}
+
+.btn-group button:hover i{
+    color: white !important;
+}
+
+.btn-group .btn:focus{
+    outline: none !important;
+    border: 2px orange solid !important;
+    text-decoration: none;
+}
+
+.btn-group button:active{
+    background-color: orange !important;
+}
