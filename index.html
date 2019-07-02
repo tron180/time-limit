@@ -29,7 +29,7 @@
   <body>
     <div class="container-fluid bg-gray">
       <!-- Upper Nav Section -->
-      <ul class="nav bg-white justify-content-around">
+      <ul class="nav bg-white d-none d-xl-flex justify-content-around">
         <li class="nav-item">
           <a class="nav-link m-2" href="#">
             <h1 class="text-muted font-weight-lightest">
@@ -84,7 +84,7 @@
 
       <!-- Navbar Section -->
       <nav class="w-90 m-auto navbar navbar-expand-lg navbar-light bg-orange">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand mx-lg-auto mx-md-auto mx-sm-auto" href="#">
           <i class="fas fa-home text-white"></i>
         </a>
         <button
@@ -274,44 +274,52 @@
       </div>
 
       <!-- Section: 1st Section -->
-      <div class="d-flex flex-column mx-auto my-5">
+      <div class="d-flex flex-column text-center mx-auto my-5">
+        <i class="fas fa-cube orange my-4 font-30"></i>
         <h2 class="font-weight-bold text-center" style="letter-spacing: 1px">
           OUR <span class="orange">SPECIALITY</span>
         </h2>
-        <h5 class="text-muted font-15 text-center" style="letter-spacing: 1px">
+        <h5
+          class="text-muted font-15 mt-1 text-center"
+          style="letter-spacing: 1px"
+        >
           Check our latest exciting templates
         </h5>
       </div>
 
       <!-- Section: 2nd Section -->
-      <div class="row d-flex my-5 mx-4">
-        <div class="col lg-4 mx-5 md-4 sm-12">
+      <div class="row d-flex my-5 mx-4 py-4">
+        <div class="col-lg-4 px-3 col-md-6 col-sm-12">
           <div class="d-flex flex-column">
-            <i class="text-center font-30 mb-4 far orange fa-lightbulb"></i>
-            <h4 class="text-center font-weight-bold">CREATIVE DESIGN</h4>
-            <p class="text-center">
+            <i
+              class="text-center font-40 mb-4 mt-sm-4 far orange fa-lightbulb"
+            ></i>
+            <h4 class="text-center my-3 font-weight-bold">CREATIVE DESIGN</h4>
+            <p class="text-center font-15 text-muted mx-auto w-75">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
               maiores mollitia vitae officiis numquam rerum aut? Ipsam non est
               nostrum.
             </p>
           </div>
         </div>
-        <div class="col lg-4 mx-5 md-4 sm-12">
+        <div class="col-lg-4 px-3 col-md-6 col-sm-12">
           <div class="d-flex flex-column">
-            <i class="text-center font-30 mb-4 far orange fa-square"></i>
-            <h4 class="text-center font-weight-bold">AWESOME LAYOUT</h4>
-            <p class="text-center">
+            <i
+              class="text-center font-40 mb-4 mt-sm-4 mt-lg-0 far orange fa-square"
+            ></i>
+            <h4 class="text-center my-3 font-weight-bold">AWESOME LAYOUT</h4>
+            <p class="text-center font-15 text-muted mx-auto w-75">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
               maiores mollitia vitae officiis numquam rerum aut? Ipsam non est
               nostrum.
             </p>
           </div>
         </div>
-        <div class="col lg-4 mx-5 md-4 sm-12">
+        <div class="col-lg-4 px-3 col-md-12 col-sm-12">
           <div class="d-flex flex-column">
-            <i class="text-center font-30 mb-4 fas orange fa-tv"></i>
-            <h4 class="text-center font-weight-bold">POWERFUL CODING</h4>
-            <p class="text-center">
+            <i class="text-center font-40 mb-4 mt-sm-4 fas orange fa-tv"></i>
+            <h4 class="text-center my-3 font-weight-bold">POWERFUL CODING</h4>
+            <p class="text-center font-15 text-muted mx-auto w-75">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
               maiores mollitia vitae officiis numquam rerum aut? Ipsam non est
               nostrum.
@@ -321,13 +329,13 @@
       </div>
 
       <!-- Section: 3rd Section -->
-      <div class="bg-dark w-100 my-5" style="height: 400px">
+      <div class="bg-dark w-100 my-5">
         <div class="row">
-          <div class="col lg-6 sm-12 ml-5 pl-5">
+          <div class="col-lg-6 col-sm-12 ml-5 pl-5">
             <div class="d-flex flex-column text-left py-5 pl-5 pr-4">
               <h2 class="font-weight-bold text-white">PHANTOM</h2>
               <h5 class="text-white">Creative Personal vCard Template</h5>
-              <p class="text-white my-4 font-12">
+              <p class="text-white w-60 my-4 font-12">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Architecto earum ratione aliquid molestias nostrum quis
                 inventore repellat provident soluta. Iusto....
@@ -336,7 +344,7 @@
                 <h6 class="mt-2 font-weight-bold">
                   Price: <span class="orange">$12</span>
                 </h6>
-                <div class="px-4 font-20">|</div>
+                <div class="px-3 font-20">|</div>
                 <h6 class="mt-2 font-weight-bold">
                   <i
                     class="fas fa-shopping-cart orange px-2 pr-3 font-15"
@@ -344,7 +352,7 @@
                   ></i
                   >10 Sold
                 </h6>
-                <div class="px-4 font-20">|</div>
+                <div class="px-3 font-20">|</div>
                 <h6 class="mt-2 font-weight-bold">
                   <i
                     class="fas orange fa-heart px-2 pr-2 font-15
@@ -353,27 +361,32 @@
                   >163
                 </h6>
               </div>
-              <div class="d-flex mt-4 flex-row">
-                <h5
-                  class="btn btn-success px-4 py-2 font-weight-bold mr-2 font-12"
-                  style="border-radius: 20px; letter-spacing: 1px"
-                >
-                  Purchase This Template
-                </h5>
-                <h5
-                  class="btn btn-light px-4 py-2 font-weight-bold ml-2 text-dark font-12"
-                  style="border-radius: 20px; letter-spacing: 1px"
-                >
-                  Live Demo
-                </h5>
+              <div class="row mt-4">
+                <div class="col-lg-6 col-sm-12">
+                  <h5
+                    class="btn btn-success px-4 py-2 font-weight-bold mr-2 font-12"
+                    style="border-radius: 20px; letter-spacing: 1px"
+                  >
+                    Purchase This Template
+                  </h5>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                  <h5
+                    class="btn btn-light px-4 py-2 font-weight-bold ml-2 text-dark font-12"
+                    style="border-radius: 20px; letter-spacing: 1px"
+                  >
+                    Live Demo
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col lg-6 sm-12"></div>
+          <div class="col-lg-6 col-sm-12"></div>
         </div>
       </div>
       <!-- Section: 1st Section -->
       <div class="d-flex flex-column mx-auto my-5">
+        <i class="fas fa-cube orange my-4 mx-auto font-30"></i>
         <h2 class="font-weight-bold text-center" style="letter-spacing: 1px">
           OUR LATEST <span class="orange">THEME</span>
         </h2>
@@ -424,7 +437,7 @@
 
       <!-- Card Group: 1st row -->
       <div class="row mt-3 mb-4 px-5">
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-sm-4">
           <div class="card mx-auto w-90 shadow">
             <svg
               class="bd-placeholder-img card-img-top"
@@ -475,7 +488,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-sm-4">
           <div class="card mx-auto w-90">
             <svg
               class="bd-placeholder-img card-img-top"
@@ -526,7 +539,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 col-sm-12 mt-sm-4">
           <div class="card mx-auto w-90">
             <svg
               class="bd-placeholder-img card-img-top"
@@ -581,7 +594,7 @@
 
       <!-- Card Group: 2nd row -->
       <div class="row mt-3 mb-4 px-5">
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-sm-4">
           <div class="card mx-auto w-90">
             <svg
               class="bd-placeholder-img card-img-top"
@@ -632,7 +645,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-sm-4">
           <div class="card mx-auto w-90">
             <svg
               class="bd-placeholder-img card-img-top"
@@ -683,7 +696,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 col-sm-12 mt-sm-4">
           <div class="card mx-auto w-90">
             <svg
               class="bd-placeholder-img card-img-top"
@@ -746,6 +759,7 @@
       <!-- Above Footer Section -->
       <div class="bg-white">
         <div class="text-center mt-5 pt-5 pb-3">
+          <i class="fas fa-cube orange my-4 font-30"></i>
           <p class="font-weight-bold font-30">
             WHAT OUR <span class="orange">CUSTOMERS</span> SAY
           </p>
@@ -778,7 +792,7 @@
           <div class="carousel-inner mx-auto w-90">
             <div class="carousel-item">
               <div class="row py-5">
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -809,7 +823,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -840,7 +854,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -875,7 +889,7 @@
             </div>
             <div class="carousel-item active">
               <div class="row py-5">
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -906,7 +920,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -937,7 +951,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -972,7 +986,7 @@
             </div>
             <div class="carousel-item">
               <div class="row py-5">
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -1003,7 +1017,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -1034,7 +1048,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 col-xs-12 mt-sm-4">
                   <div class="card text-center mx-auto w-90">
                     <div class="card-title mb-0">
                       <svg height="100" class="pt-2" width="100">
@@ -1090,9 +1104,9 @@
 
         <!-- Customers and Subscription Section  -->
         <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12 pr-0 text-white">
+          <div class="col-lg-6 col-md-8 offset-md-2 offset-lg-0 col-sm-12 pr-0 text-white">
             <div class="d-flex flex-column bg-orange py-5 pl-5 pr-3">
-              <div class="pl-5">
+              <div class="pl-lg-5">
                 <p class="font-weight-bold font-30" style="letter-spacing:1px;">
                   OUR CLIENTS
                 </p>
@@ -1100,13 +1114,13 @@
                   some of our great customers who use our templates
                 </p>
                 <div class="d-flex flex-row">
-                  <svg width="180" height="80">
+                  <svg width="180" class="mx-md-1" height="80">
                     <rect width="150" height="80" style="fill:gray;" />
                   </svg>
-                  <svg width="180" height="80">
+                  <svg width="180" class="mx-md-1" height="80">
                     <rect width="150" height="80" style="fill:gray;" />
                   </svg>
-                  <svg width="180" height="80">
+                  <svg width="180" class="mx-md-1" height="80">
                     <rect width="150" height="80" style="fill:gray;" />
                   </svg>
                 </div>
@@ -1114,7 +1128,7 @@
             </div>
           </div>
           <div
-            class="col-lg-6 col-md-12 col-sm-12 pl-5 py-5 pr-3 bg-dark text-white"
+            class="col-lg-6 col-md-8 offset-md-2 offset-lg-0 col-sm-12 pl-5 py-5 pr-3 bg-dark text-white"
           >
             <p class="font-20 font-weight-bold mb-0">
               SUBSCRIBE TO OUR NEWSLETTER
@@ -1155,17 +1169,17 @@
       <!-- Footer Section -->
       <footer style="background-color: #262626">
         <div class="row text-white py-5 pl-5">
-          <div class="col-lg-3 col-md-6 col-sm-12 pl-5">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-sm-center text-lg-left pl-5">
             <p class="font-30 text-muted pb-2">
               THEME<span class="font-weight-bold text-white">BOX</span>
             </p>
-            <p class="font-12 text-muted">
+            <p class="font-12 mx-sm-auto mx-lg-none w-60 text-muted">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas,
               quasi aliquam! Officia nulla saepe est doloribus rem repudiandae
               consequuntur vero.
             </p>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-sm-center text-lg-left">
             <p class="font-20 font-weight-bold mt-2 pb-2">IMPORTANT LINKS</p>
             <ul class="text-muted">
               <li>About Us</li>
@@ -1175,7 +1189,7 @@
               <li>Payment Methods</li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-sm-center text-lg-left">
             <p class="font-20 font-weight-bold mt-2 pb-2">USEFUL LINKS</p>
             <ul class="text-muted">
               <li>Theme Forest</li>
@@ -1185,7 +1199,7 @@
               <li>PhotoDune</li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-sm-center text-lg-left">
             <p class="font-20 font-weight-bold mt-2 pb-2">GET IN TOUCH</p>
             <ul class="text-muted list-unstyled">
               <li>
@@ -1200,7 +1214,7 @@
                   +000-1111-2222
                 </p>
               </li>
-              <li class="d-flex text-white flex-row">
+              <li class="d-flex text-white justify-content-sm-center justify-content-lg-start flex-row">
                 <i
                   class="fab mr-1 py-2 bg-dark font-18 fa-facebook-f"
                   style="border-radius:50%; padding-left: 10px; padding-right: 10px"
