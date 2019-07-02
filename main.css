@@ -22,6 +22,10 @@
     font-size: 15px;
 }
 
+.font-18{
+    font-size: 18px;
+}
+
 .font-weight-lightest{
     font-weight: 100;
 }
@@ -48,4 +52,14 @@
 
 .active-1{
     background-color: orange !important;
+    color: white !important;
+}
+
+.active-2{
+    background-color: orange !important;
+}
+
+.selected{
+    color: orange;
+    transform: translateX(20px);
 }
