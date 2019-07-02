@@ -3,7 +3,11 @@
 }
 
 .bg-orange{
-    background-color: orange;
+    background-color: orange !important;
+}
+
+.bg-gray{
+    background-color: #f2f2f2;
 }
 
 .font-10{
@@ -34,10 +38,14 @@
     height: 55px;
 }
 
+.w-80{
+    width: 80%;
+}
+
 .w-90{
     width: 90%;
 }
 
-.active{
+.active-1{
     background-color: orange !important;
 }
